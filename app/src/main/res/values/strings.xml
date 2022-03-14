@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ltdd_tuan04</string>
+    <string name="welcome_jala">Welcome, Jala!</string>
+    <string name="choice_your_best_food">Choice your Best food</string>
+    <string name="search_food">Search food</string>
+    <string name="donut">Donut</string>
+    <string name="pink_donut">Pink Donut</string>
+    <string name="floating">Floating</string>
+    <string name="search_button">search button</string>
+</resources>
