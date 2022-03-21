@@ -7,4 +7,9 @@
     <string name="pink_donut">Pink Donut</string>
     <string name="floating">Floating</string>
     <string name="search_button">search button</string>
+    <string name="spicy_tasty_donut_family">Spicy tasty donut family</string>
+    <string name="image_donut">image donut</string>
+    <string name="tasty_donut">Tasty Donut</string>
+    <string name="_10_00">$10.00</string>
+    <string name="button_add_donut">button add donut</string>
 </resources>

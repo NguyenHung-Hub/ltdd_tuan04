@@ -33,41 +33,55 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_welcome" />
 
-    <LinearLayout
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/layout_search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
         android:layout_marginStart="14dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="14dp"
 
-        android:orientation="horizontal"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_choice">
 
         <EditText
-            android:layout_width="100dp"
+            android:id="@+id/et_search"
+            android:layout_width="0dp"
             android:layout_height="46dp"
+            android:layout_marginEnd="16dp"
             android:autofillHints="name"
             android:background="@drawable/bg_edittext"
+
             android:hint="@string/search_food"
+
+            android:inputType="text"
             android:padding="8dp"
-
-
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/btn_search"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
+            android:id="@+id/btn_search"
             android:layout_width="46dp"
             android:layout_height="46dp"
 
-            android:background="@color/bg_btn"
+            android:layout_marginEnd="16dp"
+
+            android:background="@drawable/bg_btn_search"
             android:contentDescription="@string/search_button"
-            android:src="@drawable/search" />
-    </LinearLayout>
+            android:src="@drawable/ic_search"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/et_search"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <LinearLayout
-        android:id="@+id/layout_buttom"
+        android:id="@+id/layout_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
@@ -86,26 +100,62 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/bg_btn"
             android:text="@string/donut"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            android:textSize="14sp" />
 
         <Button
             android:id="@+id/pinkDonut_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/bg_btn"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="@color/white"
             android:text="@string/pink_donut"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+
+            android:textSize="14sp" />
 
         <Button
             android:id="@+id/floating_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/bg_btn"
+            android:layout_marginStart="16dp"
 
+            android:backgroundTint="@color/white"
             android:text="@string/floating"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+
+            android:textSize="14sp" />
 
     </LinearLayout>
+
+
+<!--    <ScrollView-->
+<!--        android:layout_width="402dp"-->
+<!--        android:layout_height="646dp"-->
+<!--        android:fillViewport="true"-->
+
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/layout_button"-->
+<!--        >-->
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="452dp"
+
+            android:divider="@color/white"
+
+            android:dividerHeight="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+
+            app:layout_constraintTop_toBottomOf="@+id/layout_button"
+            tools:listitem="@layout/lv_donut">
+        </ListView>
+<!--    </ScrollView>-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

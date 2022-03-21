@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/DHCN_Courses/HK6/Lap-trinh-di-dong/Thuc-hanh/ltdd_tuan04/app/src/main/res/drawable/bg_btn.xml" value="0.189" />
+        <entry key="..\:/DHCN_Courses/HK6/Lap-trinh-di-dong/Thuc-hanh/ltdd_tuan04/app/src/main/res/drawable/bg_btn_search.xml" value="0.229" />
         <entry key="..\:/DHCN_Courses/HK6/Lap-trinh-di-dong/Thuc-hanh/ltdd_tuan04/app/src/main/res/drawable/bg_edittext.xml" value="0.215" />
-        <entry key="..\:/DHCN_Courses/HK6/Lap-trinh-di-dong/Thuc-hanh/ltdd_tuan04/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/DHCN_Courses/HK6/Lap-trinh-di-dong/Thuc-hanh/ltdd_tuan04/app/src/main/res/drawable/lv_donut.xml" value="0.1855" />
+        <entry key="..\:/DHCN_Courses/HK6/Lap-trinh-di-dong/Thuc-hanh/ltdd_tuan04/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/DHCN_Courses/HK6/Lap-trinh-di-dong/Thuc-hanh/ltdd_tuan04/app/src/main/res/layout/bg_edittext.xml" value="0.24427083333333333" />
+        <entry key="..\:/DHCN_Courses/HK6/Lap-trinh-di-dong/Thuc-hanh/ltdd_tuan04/app/src/main/res/layout/lv_donut.xml" value="0.25" />
       </map>
     </option>
   </component>

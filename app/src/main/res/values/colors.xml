@@ -9,5 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#626262</color>
     <color name="borderColor">#626262</color>
-    <color name="bg_btn">#F4DDDD</color>
+    <color name="bg_btn">#F1B000</color>
+    <color name="bg_item">#F4DDDD</color>
 </resources>
